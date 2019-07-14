@@ -1,0 +1,124 @@
+body{
+  background-color:white;
+}
+main{
+background-image:url('../images/bacgrArt1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding:90px;
+margin:0 0 0 0;
+color:white;
+}
+#fstname
+{
+  text-align: center;
+
+}
+#mypic1{
+text-align: center;
+text-shadow: 0em;
+}
+nav{
+max-width:924px;
+margin: 0 auto;
+margin-right: 0%;
+display:flex;
+justify-content: space-between;
+}
+nav ul{
+text-align: left;
+position: fixed;
+}
+nav ul li{
+display:block;
+} 
+nav ul li a{
+   text-decoration:none;
+   display: inline-flex;
+   position:relative;
+   color:#ffff00;
+  left:650px;
+  top:200px;
+  
+  }
+nav ul li a:hover{
+  background-color:yellow;
+  color:hotpink;
+  
+}
+@media only screen and (max-width: 480px){
+  body{
+    width: 200px;
+    padding:0px;
+  }
+}
+#aboutMess
+{
+  padding-top: 100px;
+text-align: center;
+color: whitesmoke;
+background-color:maroon;
+}
+#whatIDO{
+  padding: 90px 200px 400px 500px;
+  text-align: center;
+  color: whitesmoke;
+  background-color:magenta;
+}
+}h1{
+    font-size: 80px;
+}
+p{
+    font-size: 24px;
+}
+.myname{
+  
+  position:relative;
+  bottom:10px;
+  font-size:18px;
+  justify-content: left;
+  padding-left: 40px;
+}
+#aboutMEdesc{
+
+  position:relative;
+  bottom:6px;
+  font-size:16px;
+  justify-content: left;
+  padding-left: 30px;
+  left: auto;
+}
+#whatIDO{
+position:relative;
+display: flex;
+flex-direction: column;
+bottom:6px;
+font-size:16px;
+padding-left:30px;
+float:right ;
+left: 12px
+}
+#container{
+  display:flex;
+  flex-wrap: wrap;
+}
+#mypic{
+  position:relative;
+  display: flex;
+  bottom:-10px;
+  font-size:16px;
+  padding-left:30px;
+  float:right ;
+  left: 20px
+
+  
+
+}
+#work{
+background-color: bisque;
+display: flex;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;}
+  

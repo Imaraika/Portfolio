@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myPortfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a href="#container">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <div id="fstname">            
+        <h1 style="justify-content: center">
+          <strong><em>i'm Ange</em></strong>
+          <p>Web Designer and Android Developer</p>
+        </h1>
+      </div>
+      <div id="mypic1">
+        <img src="./images/laptop1pic.jpg" height="250" width="250">
+      </div>
+    </main>
+    <div id="container">
+     <div id ="aboutMess">
+       <h3 class="myname">I'm Ingabire Ange</h3>
+       <h3 class="myname">freelance developer & designer.</h3>
+          <p id="aboutMEdesc">I've always been drawn to the overlap between design and development.<br>
+             My skills are broad: 
+          from UI to design, front end to back end development.<br> 
+          I enjoy each aspect, and love building sites & mobile apps <br>
+          from start to finish,for clients all over the world.</p>
+          <p id="aboutMEdesc">I'm available for remote work <br>
+            - if you would like to build something together,<a href="#contact">get in touch?</a></p>
+     </div>
+     <div id="whatIDO">
+       <h3 id="myresp">What I do</h3>
+       <ul>
+         <li><strong><i>Front-end</i></strong></li></ul>
+          <ol type="i">
+            <li>CSS3 and HTML</li>
+            <li>Javascript</li></ol>        
+       <ul>
+         <li><strong><i>Back-end</i></strong></li></ul>
+          <ol type="i">
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Java</li></ol>
+          <ul><li><strong><i>Apps</i></strong></li></ul>
+          <ol type="i">
+            <li>Mobile</li>
+            <li>E-Commerce</li>
+          </ol>
+         
+     </div>
+     <div id="mypic">
+        <img src="./images/Icodeimg.jpg" height="570" width="380">
+        
+      </div>
+    </div>
+  
+    <div id="work">
+        <div id ="">
+          <h3 class="recentWork"> Projectk Done</h3>
+          <h3 class="proj1">Rapid-Exchange App using Android system</h3>
+             <p id="Proj1desc">I've Done Rapid-Exchange using Android system<br>
+               as my final year Project in bachelor's Degree.
+               <br>i developed the App as both Front end and backend<br>
+                it is an App of Ecommerce where you can Buy and Sell Online at wherever you are.<br></p>
+    
+           
+         </div>
+        </div>
+
+        <div id="contact">
+          <div id="conttitl">
+            <p><strong>Let's build something together! Or email me if you have any other questions.</strong>
+          </div>
+            <form action="https://formspree.io/hello@pierre.io" method="POST">
+              <div class="form-group">
+                <input type="text" name="name" required="">
+                  <label for="input" class="control-label">Name</label>
+                  <i class="bar"></i></div>
+              <div class="form-group">
+                <input type="text" name="email" required="">
+                  <label for="input" class="control-label">Email address</label>
+                    <i class="bar"></i></div>
+              <div class="form-group">
+                <input type="text" name="company">
+                  <label for="input" class="control-label">Company / Organisation</label>
+                    <i class="bar"></i></div>
+              <div class="form-group">
+                <select name="requirement">
+                  <option>Website designed &amp; developed</option>
+                  <option>Website developed</option>
+                  <option>Website designed</option>
+                  <option>Website updated</option>
+                  <option>Mobile / tablet app</option>
+                  <option>Content Management System</option>
+                  <option>Ecommerce site</option>
+                  <option>Data visualisation</option>
+                  <option>Print designer</option>
+                  <option>Other</option>
+                </select>
+                <label for="select" class="control-label">You need a...</label>
+                <i class="bar"></i></div>
+                <div class="form-group">
+                  <select name="currency">
+                    <option value="$">$ USD</option>
+                    <option value="£">£ GBP</option>
+                    <option value="€">€ EUR</option>
+                  </select>
+                  <label for="select" class="control-label">Currency</label>
+                    <i class="bar"></i></div><div class="form-group">
+                      <span id="budgetvalue"> 10000</span>
+                      <input type="range" step="1000" min="8000" max="80000" name="budget" id="budgetslider" value="10000">
+                        <label for="input" class="control-label">Budget</label>
+                  </div>
+                  <div class="form-group">
+                    <span id="deadlinevalue">month</span>
+                    <input type="range" step="1" min="0" max="13" name="deadline" id="deadlineslider" value="1">
+                      <label for="input" class="control-label">Deadline</label>
+                    </div>
+                    <div class="form-group">
+                      <textarea name="projectdetails" rows="4" required="">
+
+                      </textarea>
+                        <label for="textarea" class="control-label">Project details</label>
+                          <i class="bar"></i>
+                        </div>
+                        <div class="button-container">
+                          <button type="submit" class="button">
+                            <span>Send</span>
+                          </button>
+                        </div>
+                      </form>
+        </div>
+  </body>
+  </html>
