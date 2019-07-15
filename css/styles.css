@@ -94,7 +94,7 @@ p{
 position:relative;
 display: flex;
 flex-direction: column;
-bottom:6px;
+bottom:-0px;
 font-size:16px;
 padding-left:30px;
 float:right ;
