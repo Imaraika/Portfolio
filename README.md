@@ -4,7 +4,7 @@ This is my first portfolio in Moringa School 2019 https://Imaraika.github.io/Por
 These instructions will get you a copy of the projects up and running on your local machine 
 for development and testing purposes access this project on GITHUB at https://github.com/Imaraika/Portfolio.
 
-Prerequisites:
+<strong>Prerequisites:<strong>
 things you need to install the software and how to install them github , 
 atom: visual studio code , Terminal , ubuntu software I used html and Markdown language
 
