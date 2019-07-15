@@ -80,8 +80,8 @@ p {
 	bottom: 6px;
 	font-size: 16px;
 	justify-content: center;
-  padding-left: 0px;
-  padding-top: 50px
+	padding-left: 0px;
+	padding-top: 50px;
 	left: auto;
 }
 #whatIDO {
@@ -108,14 +108,13 @@ p {
 	/* font-size: 16px; */
 	padding-left: 0px;
 	float: right;
-  left: 7px;
-  border-radius: 300px;
+	left: 7px;
+	border-radius: 50%;
 }
 #work {
 	background-color: bisque;
-	padding: 90px 90px 390px auto;
-	margin-top: 0px;
-	display: flex;
+	padding: 90px 390px 500px 50px;
+	margin: 0px;
 }
 a {
 	text-decoration: none;
@@ -125,6 +124,19 @@ a {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 16px;
 }
-.recentWork {
+/* .recentWork { 
 	text-align: center;
+}
+#recnttitle {
+	border-radius: 15px 50px 30px;
+}*/
+#projct {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	bottom: -0px;
+	font-size: 16px;
+	padding-left: 40px;
+	float: right;
+	left: 0px;
 }
