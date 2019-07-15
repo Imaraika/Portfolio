@@ -1,14 +1,15 @@
 # Portfolio 
+## Description
 All about me
 This is my first portfolio in Moringa School 2019 https://Imaraika.github.io/Portfolio/ 
 These instructions will get you a copy of the projects up and running on your local machine 
 for development and testing purposes access this project on GITHUB at https://github.com/Imaraika/Portfolio.
 
-<strong>Prerequisites:<strong>
+# Prerequisites
 things you need to install the software and how to install them github , 
 atom: visual studio code , Terminal , ubuntu software I used html and Markdown language
 
-Installing:
+# Installing:
 \ubuntu: GET PREPARED,
 
 Evaluate Your Storage Space,
@@ -40,13 +41,13 @@ You can use Ubuntu Make to download and install Visual Studio Code:
 Then install Visual Studio Code:
 (umake ide visual-studio-code) Then click on the Visual studio icon that it automatically places on your launcher.
 
-usage
+# usage
 (apt-get update (git --version) (git version 2.7.4)
 git config --global user.name "testuser" git config --global user.email "testuser@example.com") 
 cat ~/.gitconfig) (git config --list)
 (udo add-apt-repository ppa:ubuntu-desktop/ubuntu-make sudo apt-get update sudo apt-get install ubuntu-make )
 
-Contributing
+# Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue, 
 email :inange2013@gmail.com, or any other method with the owners of this repository before making a change.
 
@@ -57,7 +58,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 this the link to my portfoio : https://github.com/Imaraika/Portfolio.git
 
-License
+# License
 GNU General Public License v3.0 https://choosealicense.com/licenses/gpl-3.0/ 
 copyright (C) 2019 Free Software Foundation, 
 Inc. https://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document,
