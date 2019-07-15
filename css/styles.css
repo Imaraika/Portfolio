@@ -5,7 +5,7 @@ main{
 background-image:url('../images/bacgrArt1.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-padding:90px;
+padding:320px;
 margin:0 0 0 0;
 color:white;
 }
@@ -18,31 +18,33 @@ color:white;
 text-align: center;
 text-shadow: 0em;
 }
-nav{
+/* nav{ 
 max-width:924px;
 margin: 0 auto;
 margin-right: 0%;
 display:flex;
 justify-content: space-between;
-}
+}*/
 nav ul{
-text-align: left;
-position: fixed;
+list-style-type: none;
+list-style-position: outside;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 nav ul li{
-display:block;
+width: 300px;
+text-align: center;
 } 
 nav ul li a{
    text-decoration:none;
-   display: inline-flex;
-   position:relative;
-   color:#ffff00;
+   color:green;
   left:650px;
   top:200px;
   
   }
 nav ul li a:hover{
-  background-color:yellow;
+  background-color:pink;
   color:hotpink;
   
 }
@@ -54,16 +56,16 @@ nav ul li a:hover{
 }
 #aboutMess
 {
-  padding-top: 100px;
+padding-top: 100px;
 text-align: center;
 color: whitesmoke;
 background-color:maroon;
 }
 #whatIDO{
-  padding: 90px 200px 400px 500px;
-  text-align: center;
-  color: whitesmoke;
-  background-color:magenta;
+padding-top: 100px;
+text-align: center;
+color: whitesmoke;
+background-color:maroon;
 }
 }h1{
     font-size: 80px;
