@@ -107,7 +107,7 @@ left: 12px
 #mypic{
   position:relative;
   display: flex;
-  bottom:-10px;
+  bottom:-0px;
   font-size:16px;
   padding-left:30px;
   float:right ;
