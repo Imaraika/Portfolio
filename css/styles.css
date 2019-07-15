@@ -128,7 +128,6 @@ a {
 	text-align: center;
 }
 #recnttitle {
-	border-radius: 15px 50px 30px;
 }*/
 #projct {
 	position: relative;
@@ -139,4 +138,6 @@ a {
 	padding-left: 40px;
 	float: right;
 	left: 0px;
+	border-radius: 15px 50px 30px;
+	background-color: chocolate;
 }
