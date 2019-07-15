@@ -95,8 +95,6 @@ p {
 	left: 12px;
 }
 #container {
-	/* background-color:maroon; */
-	/* padding:90px; */
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -122,11 +120,7 @@ a {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 16px;
 }
-/* .recentWork { 
-	text-align: center;
-}
-#recnttitle {
-}*/
+
 #projct {
 	position: relative;
 	display: flex;
