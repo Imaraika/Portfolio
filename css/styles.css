@@ -1,22 +1,20 @@
-body{
-  background-color:white;
+body {
+	background-color: white;
 }
-main{
-background-image:url('../images/bacgrArt1.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-padding:320px;
-margin:0 0 0 0;
-color:white;
+main {
+	background-image: url('../images/bacgrArt1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 390px;
+	margin: 0 0 0 0;
+	color: white;
 }
-#fstname
-{
-  text-align: center;
-
+#fstname {
+	text-align: center;
 }
-#mypic1{
-text-align: center;
-text-shadow: 0em;
+#mypic1 {
+	text-align: center;
+	text-shadow: 0em;
 }
 /* nav{ 
 max-width:924px;
@@ -25,102 +23,108 @@ margin-right: 0%;
 display:flex;
 justify-content: space-between;
 }*/
-nav ul{
-list-style-type: none;
-list-style-position: outside;
-display: flex;
-flex-direction: row;
-justify-content: center;
+nav ul {
+	list-style-type: none;
+	list-style-position: outside;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
-nav ul li{
-width: 300px;
-text-align: center;
-} 
-nav ul li a{
-   text-decoration:none;
-   color:green;
-  left:650px;
-  top:200px;
-  
-  }
-nav ul li a:hover{
-  background-color:pink;
-  color:hotpink;
-  
+nav ul li {
+	width: 300px;
+	text-align: center;
 }
-@media only screen and (max-width: 480px){
-  body{
-    width: 200px;
-    padding:0px;
-  }
+nav ul li a {
+	text-decoration: none;
+	color: green;
+	left: 650px;
+	top: 200px;
 }
-#aboutMess
-{
-padding-top: 100px;
-text-align: center;
-color: whitesmoke;
-background-color:maroon;
+nav ul li a:hover {
+	background-color: pink;
+	color: hotpink;
 }
-#whatIDO{
-padding-top: 100px;
-text-align: center;
-color: whitesmoke;
-background-color:maroon;
+@media only screen and (max-width: 480px) {
+	body {
+		width: 200px;
+		padding: 0px;
+	}
 }
-}h1{
-    font-size: 80px;
+#aboutMess {
+	padding-top: 100px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: maroon;
 }
-p{
-    font-size: 24px;
+#whatIDO {
+	padding-top: 100px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: maroon;
 }
-.myname{
-  
-  position:relative;
-  bottom:10px;
-  font-size:18px;
-  justify-content: left;
-  padding-left: 40px;
+h1 {
+	font-size: 80px;
 }
-#aboutMEdesc{
-
-  position:relative;
-  bottom:6px;
-  font-size:16px;
-  justify-content: left;
-  padding-left: 30px;
-  left: auto;
+p {
+	font-size: 24px;
 }
-#whatIDO{
-position:relative;
-display: flex;
-flex-direction: column;
-bottom:-0px;
-font-size:16px;
-padding-left:30px;
-float:right ;
-left: 12px
+.myname {
+	position: relative;
+	bottom: 10px;
+	font-size: 18px;
+	justify-content: left;
+	padding-left: 40px;
 }
-#container{
-  display:flex;
-  flex-wrap: wrap;
+#aboutMEdesc {
+	position: relative;
+	bottom: 6px;
+	font-size: 16px;
+	justify-content: center;
+  padding-left: 0px;
+  padding-top: 50px
+	left: auto;
 }
-#mypic{
-  position:relative;
-  display: flex;
-  bottom:-0px;
-  font-size:16px;
-  padding-left:30px;
-  float:right ;
-  left: 20px
-
-  
-
+#whatIDO {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	bottom: -0px;
+	font-size: 16px;
+	padding-left: 0px;
+	float: right;
+	left: 12px;
 }
-#work{
-background-color: bisque;
-display: flex;
+#container {
+	/* background-color:maroon; */
+	/* padding:90px; */
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
 }
-a{
-  text-decoration: none;
-  color: whitesmoke;}
-  
+#mypic {
+	/* position: relative; */
+	/* display: flex; */
+	bottom: -0px;
+	/* font-size: 16px; */
+	padding-left: 0px;
+	float: right;
+  left: 7px;
+  border-radius: 300px;
+}
+#work {
+	background-color: bisque;
+	padding: 90px 90px 390px auto;
+	margin-top: 0px;
+	display: flex;
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+#Proj1desc {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+.recentWork {
+	text-align: center;
+}
