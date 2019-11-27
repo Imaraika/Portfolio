@@ -400,10 +400,7 @@ a {
 	padding-top: 175px;
 	padding-bottom: 175px;
 }
-/* #about{
-	padding-top: 75px;
-	padding-bottom: 175px;
-} */
+
 .contact-area {
 	background: #e45447; }
 	@media (max-width: 1024px) {
@@ -460,7 +457,8 @@ a {
 			  bottom: -9px; } }
 	  .contact-area .contact-title p {
 		max-width: 540px;
-		margin: 0 auto; }
+		margin: 0 auto;
+	 }
 	.contact-area .primary-btn {
 	  background: #fff;
 	  color: #000;
